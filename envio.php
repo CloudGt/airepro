@@ -9,23 +9,23 @@ $mail = new PHPMailer;
 $mail->charSet = "UTF-8";
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com;';  // Specify main and backup SMTP servers
+$mail->Host = 'mx1.hostmania.es;';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'leads.dacotrans@gmail.com';                 // SMTP username
-$mail->Password = '27071990';                           // SMTP password
+$mail->Username = 'airepro@airepro.com.gt';                 // SMTP username
+$mail->Password = 'AIRE2016';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
-$mail->from = 'info@pachesytamales.com.gt';
-$mail->FromName = $de;
-$mail->setFrom($remitente, 'Contacto via web');
-$mail->addReplyTo($remitente, $de);
+$mail->from = 'airepro@airepro.com.gt';
+//$mail->FromName = $de;
+$mail->setFrom('airepro@airepro.com.gt', 'Contacto via web');
+$mail->addReplyTo($remitente,$de);
 //$mail->addAddress('informatica@dacotrans.com.gt', 'User');     // Add a recipient
-$mail->addAddress('crisoftpc@gmail.com','sistema');               // Name is optional
+$mail->addAddress('airepro@airepro.com.gt','sistema');               // Name is optional
 //$mail->AddBCC('soporte@dacotrans.com.gt');
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
-$mail->Subject = 'test';
+$mail->Subject = 'Contacto web '.$de;
 //$mail->Body    = $mensaje .'-- telefono ' .$telefono;
 $mail->Body= 
 '
@@ -522,7 +522,7 @@ body{background-color:#f6f6f6}.mso h1{}.mso h1{font-family:Georgia,serif !import
       <div class="header" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 173000px);" id="emb-email-header-container">
       <!--[if (mso)|(IE)]><table align="center" class="header" cellpadding="0" cellspacing="0"><tr><td style="width: 600px"><![endif]-->
         <div class="logo emb-logo-margin-box" style="font-size: 26px;line-height: 32px;Margin-top: 6px;Margin-bottom: 20px;color: #c3ced9;font-family: Roboto,Tahoma,sans-serif;Margin-left: 20px;Margin-right: 20px;" align="center">
-          <div class="logo-center" style="font-size:0px !important;line-height:0 !important;" align="center" id="emb-email-header"><img style="height: auto;width: 100%;border: 0;max-width: 139px;" src="http://pachesytamales.com.gt/img/logo_corr.png" alt="" width="139"></div>
+          <div class="logo-center" style="font-size:0px !important;line-height:0 !important;" align="center" id="emb-email-header"><img style="height: auto;width: 100%;border: 0;max-width: 139px;" src="http://airepro.com.gt/sitio/img/logo.png" alt="Logo Aire Pro" width="139"></div>
         </div>
       <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
       </div>
@@ -639,11 +639,11 @@ $(document).ready(function () {
 //$mail->Body    = file_get_contents('tmp_corr.php');
 $mail->AltBody = 'se ha enviado el siguiente mensaje: '. $mensaje. 'contacto:'.$telefono;
 if(!$mail->send()) {
-//    echo 'Message could not be sent.';
- //   echo 'Mailer Error: ' . $mail->ErrorInfo;
-    header('Location:index.html');
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+ //   header('Location:index.html');
 } else {
-//    echo 'Message has been sent';
-   header('Location:index.html');
+    echo 'Message has been sent';
+  // header('Location:index.html');
 }
 ?>

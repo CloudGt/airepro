@@ -20,12 +20,17 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 35px;
+ /* margin: 0 0 35px; */  
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+.thumbnail .titulo {
+    color: #333;
+}
+
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -258,7 +263,7 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-radius: 0;
+  /*border-radius: 0; */
 }
 .btn-default {
   border: 1px solid #42DCA3;

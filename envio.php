@@ -639,11 +639,11 @@ $(document).ready(function () {
 //$mail->Body    = file_get_contents('tmp_corr.php');
 $mail->AltBody = 'se ha enviado el siguiente mensaje: '. $mensaje. 'contacto:'.$telefono;
 if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
- //   header('Location:index.html');
+//    echo 'Message could not be sent.';
+//    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    header('Location:index.html');
 } else {
-    echo 'Message has been sent';
-  // header('Location:index.html');
+ //   echo 'Message has been sent';
+   header('Location:index.html');
 }
 ?>

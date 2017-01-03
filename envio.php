@@ -641,9 +641,9 @@ $mail->AltBody = 'se ha enviado el siguiente mensaje: '. $mensaje. 'contacto:'.$
 if(!$mail->send()) {
 //    echo 'Message could not be sent.';
 //    echo 'Mailer Error: ' . $mail->ErrorInfo;
-    header('Location:index.html');
+    header('Location:index.php');
 } else {
  //   echo 'Message has been sent';
-   header('Location:index.html');
+   header('Location:index.php');
 }
 ?>

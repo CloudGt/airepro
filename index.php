@@ -28,7 +28,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
+     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
 </head>
 
@@ -104,9 +107,9 @@
         
 <!-- *------- cuadros modales -->
 
-<div id="cargaexterna">
-    Aquí se cargará el HTML externo
-</div>
+        <div id="cargaexterna">
+            Aquí se cargará el HTML externo
+        </div>
 <!-- fin cuadros modales -->
        <div id="posts" class="row">
             <div id="1" class="item aire col-xs-12 col-sm-4 col-md-3 ">
@@ -138,13 +141,13 @@
                     <div class="titulo">
                         <h3>Estructuras</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <div id="4" class="item estructuras col-xs-12 col-sm-4 col-md-3">
+            <!--<div id="4" class="item estructuras col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
                         <h3>Proyecto 4</h3>                            
@@ -165,30 +168,30 @@
                         <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div id="6" class="item redes col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Proyecto 6</h3>                            
+                        <h3>Acabados</h3>                            
                     </div>
-                    <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU4NGI1YTZlMTUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTg0YjVhNmUxNSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44NTkzNzUiIHk9IjEwNS4xIj4yNDJ4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <div id="7" class="item redes col-xs-12 col-sm-4 col-md-3">
+            <!--<div id="7" class="item redes col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Proyecto 7</h3>                            
+                        <h3>Loza Tabla Roca</h3>                            
                     </div>
-                    <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU4NGI1YTZlMTUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTg0YjVhNmUxNSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44NTkzNzUiIHk9IjEwNS4xIj4yNDJ4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>
-            <div id="8" class="item estructuras col-xs-12 col-sm-4 col-md-3">
+            </div>-->
+            <!--<div id="8" class="item estructuras col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
                         <h3>Proyecto 8</h3>                            
@@ -198,9 +201,64 @@
                         <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
+    <!-- section begin -->
+            <section id="logo-full">
+                <div class="container">
+                    <!-- logo carousel -->
+                    <div class="row">
+                        <div class="logo-carousel">
+                                    <ul id="logo-carousel" class="slides">
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img1.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img2.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img3.png" alt="" >
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img4.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">
+                                                <img src="img/AIRE/img5.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img6.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img7.PNG" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-6">
+                                                <img src="img/AIRE/img3.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                        </div>
+                        <!-- logo carousel close-->
+                    </div>
+
+                </div>
+            </section>
+
     <!-- ------------- cuadro modal de contacto por correo. -->
     <div class="modal fade" id="modal_correo" role="dialog">
         <div class="modal-dialog">
@@ -535,6 +593,23 @@ echo "<span class='label label-info'>total: ". $info[2] . "</span>";
     <script src="js/grayscale.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/isotope.js"></script>
+     <!-- ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min1.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/designesia.js"></script>
 </body>
 
 </html>

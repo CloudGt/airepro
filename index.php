@@ -32,6 +32,18 @@
     
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
     <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
+   <!-- Smartsupp Live Chat script -->
+
+    <script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '4a7b1491316010f01b03c31764f4b25d3e71e77b';
+    window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='//www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+</script>
 
 </head>
 
@@ -243,7 +255,7 @@
                                         </li>
                                         <li>
                                             <div class="col-xs-6">
-                                                <img src="img/AIRE/img7.PNG" alt="">
+                                                <img src="img/AIRE/img7.png" alt="">
                                             </div>
                                         </li>
                                         <li>
@@ -518,6 +530,7 @@ function interface_contador(){
     }else{ 
        $visitas_mes=1; 
     } 
+    
     $visitas_totales++; 
 
     // reconstruir el array con los nuevos valores 
@@ -584,6 +597,16 @@ echo "<span class='label label-info'>total: ". $info[2] . "</span>";
             });
     });
     });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89942758-2', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->

@@ -94,14 +94,20 @@
                         <h1 class="brand-heading">AirePro</h1> -->
                         
                         <img src="img/logo.png">
-                        <p class="intro-text">Ventas Instalaciones y Servicios,
-                            <br>Aire acondicionado y ducteria, cuartos frios, fabricaciones remodelaciones en tabla yeso.</p>
+                        <strong>
+                        <p class="intro-text">AIRE PRO <BR>
+                        Ventas Instalaciones y Servicios.
+                            <br>Aire acondicionado, Refrigeración industrial, Sistemas de inyección y extracción, Sistemas electricos y Remodelaciones.</p></strong>
                         <a href="#proyectos" class="btn btn-circle page-scroll">
                             <i class="fa fa-snowflake-o animated"></i>
                         </a>
                     </div>
                 </div>
             </div>
+            <!-- 
+            <div style="position: fixed; left:0; top:0">
+                <img src="img\r410a.jpg" />
+            </div> -->
         </div>
     </header>
 
@@ -110,10 +116,11 @@
         <div id="filters" class="button-group">
           <button class="btn btn-primary" data-filter="*">TODOS</button>
           <button class="btn btn-primary" data-filter=".aire">Aire acondicionado</button>
-          <button class="btn btn-primary" data-filter=".electricidad">Refrigeración industrial</button>
-          <button class="btn btn-primary" data-filter=".estructuras">Electricidad industrial</button>
-          <button class="btn btn-primary" data-filter=".estructuras">Estructuras</button>
-         <button class="btn btn-primary" data-filter=".redes">Tabla yeso</button> 
+          <button class="btn btn-primary" data-filter=".refrigeracion">Refrigeración industrial</button>
+          <button class="btn btn-primary" data-filter=".inyeccion">Sis. de Inyección</button>
+          <button class="btn btn-primary" data-filter=".estraccion">Sis. de Extracción</button>
+          <button class="btn btn-primary" data-filter=".electricidad">Sistemas Electricos</button>
+         <button class="btn btn-primary" data-filter=".remodelaciones">Remodelaciones</button> 
         </div>
         <br> </br>
         
@@ -137,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div id="2" class="item electricidad col-xs-12 col-sm-4 col-md-3">
+            <div id="2" class="item aire col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
                         <h3>Climatización</h3>                            
@@ -148,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div id="3" class="item estructuras col-xs-12 col-sm-4 col-md-3">
+            <div id="3" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
                         <h3>Estructuras</h3>                            
@@ -181,7 +188,7 @@
                     </div>
                 </div>
             </div>-->
-            <div id="6" class="item redes col-xs-12 col-sm-4 col-md-3">
+            <div id="6" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
                         <h3>Acabados</h3>                            
@@ -350,7 +357,7 @@
                     <p>Somos una empresa en el rubro de aire acondicionado y ventilaciòn, nos encargamos de brindar mantenimiento, reparación, proyectos y brindar productos y servicios de calidad, generando confianza y seguridad, a un precio justo con entrega rápida, preocupándonos por el cliente y sus necesidades de modo proactivo e innovador, y teniendo siempre un personal altamente calificado.</p>   
                 </div>
                 <div class="modal-footer">
-                    <a href="#" data-dismiss="modal" class="btn">Cerrar</a>  
+                    <a data-dismiss="modal" class="btn">Cerrar</a>  
                 </div>
             </div>
         </div>
@@ -368,7 +375,7 @@
                     <p>Ser reconocida como una empresa líder en el rubro de refrigeración y aire acondicionado, que satisfaga las necesidades de nuestros clientes entregándoles servicios y productos de calidad innovadores, desarrollando soluciones integrales para cada uno de ellos y manteniendo un respeto por la sociedad y naturaleza, a través de productos de la más avanzada tecnología y así generar calidad para el desarrollo del País.</p>   
                 </div>
                 <div class="modal-footer">
-                    <a href="#" data-dismiss="modal" class="btn">Cerrar</a>  
+                    <a data-dismiss="modal" class="btn">Cerrar</a>  
                 </div>
             </div>
         </div>
@@ -394,7 +401,7 @@
                 </div>
                 <div class="modal-footer">
                     <a href="carta.pdf" class="btn btn-success" download="AirePro_presentacion.pdf">Descargar</a>
-                    <a href="#" data-dismiss="modal" class="btn">Cerrar</a>  
+                    <a data-dismiss="modal" class="btn">Cerrar</a>  
                 </div>
             </div>
         </div>

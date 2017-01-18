@@ -139,7 +139,7 @@
                         </div>
                         <img alt="Cuartos frios"  src="img/proyecto1.jpg"  style="height: 200px; width: 242px; display: block;"> 
                         <div class="caption">
-                            <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                            <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                     </div>
                     <img alt="Climatización Cuartos frios"  src="img/proyecto2.jpg"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -162,32 +162,34 @@
                     </div>
                     <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <!--<div id="4" class="item estructuras col-xs-12 col-sm-4 col-md-3">
-                <div class="thumbnail">
+            <div id="4" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Proyecto 4</h3>                            
+                        <h3>proyecto</h3>                            
                     </div>
-                    <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU4NGI1YTZlMTUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTg0YjVhNmUxNSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44NTkzNzUiIHk9IjEwNS4xIj4yNDJ4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <div id="5" class="item electricidad col-xs-12 col-sm-4 col-md-3 ">
-                <div class="thumbnail">
+
+            <div id="5" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Proyecto 6</h3>                            
+                        <h3>proyecto2</h3>                            
                     </div>
-                    <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU4NGI1YTZlMTUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTg0YjVhNmUxNSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44NTkzNzUiIHk9IjEwNS4xIj4yNDJ4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>-->
+            </div>
+
             <div id="6" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
                 <div class="thumbnail">
                     <div class="titulo">
@@ -195,32 +197,34 @@
                     </div>
                     <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <!--<div id="7" class="item redes col-xs-12 col-sm-4 col-md-3">
-                <div class="thumbnail">
+
+            <div id="7" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Loza Tabla Roca</h3>                            
+                        <h3>proyecto3</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>-->
-            <!--<div id="8" class="item estructuras col-xs-12 col-sm-4 col-md-3">
-                <div class="thumbnail">
+            </div>
+            
+            <div id="8" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Proyecto 8</h3>                            
+                        <h3>proyecto4</h3>                            
                     </div>
-                    <img alt="100%x200" data-src="holder.js/100%x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MjAwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU4NGI1YTZlMTUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTg0YjVhNmUxNSI+PHJlY3Qgd2lkdGg9IjI0MiIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI4OS44NTkzNzUiIHk9IjEwNS4xIj4yNDJ4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href="#" id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
     </section>
     <!-- section begin -->
@@ -484,7 +488,9 @@
             <div class="col-md-6">
                  
                 <address>
-                     <strong>Aire Pro Guatemala</strong><br /> 5 Avenida. 5-35, Zona 21,<br /> Guajitos, Guatemala<br /> <abbr title="Teléfono">Tel:</abbr> (502) 2477-7490
+                     <strong>Aire Pro Guatemala</strong><br/> 5 Avenida. 5-35, Zona 21,<br /> Guajitos, Guatemala<br /> <abbr title="Teléfono">Tels: (502) 2477-7490</abbr> <br/>
+                     <abbr title="Teléfono 2"> (502) 3405-2835   </abbr> <br/>
+                     <abbr title="Teléfono 3"> (502) 3405-2760   </abbr>  
                 </address> 
                 <button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#modal_correo"><i class="fa fa-envelope-o"> </i> Enviar Correo</button>
                 <p></p>
@@ -560,13 +566,14 @@ $info = interface_contador();
 
 
 ?>
-<?php
-//muestro los datos del contador
-echo "<span class='label label-primary'>este mes: ". $info[0] ."</span>";
-echo "<span class='label label-success'>ultimo mes: " . $info[1] . "</span>";
-echo "<span class='label label-info'>total: ". $info[2] . "</span>";
-?>
-
+<div class="estadisticas" style="display:none;">
+    <?php
+    //muestro los datos del contador
+    echo "<span class='label label-primary'>este mes: ". $info[0] ."</span>";
+    echo "<span class='label label-success'>ultimo mes: " . $info[1] . "</span>";
+    echo "<span class='label label-info'>total: ". $info[2] . "</span>";
+    ?>
+</div>
 
 
 

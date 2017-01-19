@@ -30,6 +30,10 @@ h6 {
 .thumbnail .titulo {
     color: #333;
 }
+.navbar-brand {
+    
+    padding-top: 5px;
+}
 
 p {
   margin: 0 0 25px;
@@ -127,7 +131,11 @@ a:focus {
       margin: 0;
       background: rgba(0, 0, 0, 0.44);
   }
-  
+  .navbar-brand {
+    margin-left: -15px;
+    background: rgba(0, 0, 0, 0.44);
+
+}
 }
 .intro {
   display: table;
@@ -171,10 +179,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 1px 1px;
-  border: 5px solid white;
+  border: 5px solid black;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -183,7 +191,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
+  color: black;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {

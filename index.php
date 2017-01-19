@@ -31,9 +31,11 @@
      <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+     <script src="vendor/jquery/jquery.js"></script>
+      <script src="js/designesia.js"></script> 
     <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
    <!-- Smartsupp Live Chat script -->
-
+<!--
     <script type="text/javascript">
     var _smartsupp = _smartsupp || {};
     _smartsupp.key = '4a7b1491316010f01b03c31764f4b25d3e71e77b';
@@ -44,7 +46,7 @@
         c.src='//www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
     })(document);
 </script>
-
+-->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -57,7 +59,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-snowflake-o"></i> <span class="light">AirePro</span><span class= "hidden-xs">Guatemala</span>
+                    <i class="fa fa-snowflake-o"></i> <span class="light">Aire Pro</span><span class= "hidden-xs"> Guatemala <span class="label label-info visible-md visible-lg visible-sm">(502) 2477-7490 </span></span>
                 </a>
             </div>
 
@@ -117,27 +119,27 @@
           <button class="btn btn-primary" data-filter="*">TODOS</button>
           <button class="btn btn-primary" data-filter=".aire">Aire acondicionado</button>
           <button class="btn btn-primary" data-filter=".refrigeracion">Refrigeración industrial</button>
-          <button class="btn btn-primary" data-filter=".inyeccion">Sis. de Inyección</button>
-          <button class="btn btn-primary" data-filter=".estraccion">Sis. de Extracción</button>
+          <!--<button class="btn btn-primary" data-filter=".inyeccion">Sis. de Inyección</button>
+          <button class="btn btn-primary" data-filter=".extraccion">Sis. de Extracción</button>-->
           <button class="btn btn-primary" data-filter=".electricidad">Sistemas Electricos</button>
          <button class="btn btn-primary" data-filter=".remodelaciones">Remodelaciones</button> 
         </div>
         <br> </br>
         
-<!-- *------- cuadros modales -->
+<!--------- cuadros modales -->
 
         <div id="cargaexterna">
             Aquí se cargará el HTML externo
         </div>
 <!-- fin cuadros modales -->
        <div id="posts" class="row">
-            <div id="1" class="item aire col-xs-12 col-sm-4 col-md-3 ">
+            <div id="1" class="item refrigeracion col-xs-12 col-sm-4 col-md-3 ">
                 <div class="item-wrap">
                     <div class="thumbnail">
                         <div class="titulo">
                             <h3>Cuarto frio</h3>                            
                         </div>
-                        <img alt="Cuartos frios"  src="img/proyecto1.jpg"  style="height: 200px; width: 242px; display: block;"> 
+                        <img alt="Cuartos frios"  src="img/proyecto1.png"  style="height: 200px; width: 242px; display: block;"> 
                         <div class="caption">
                             <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                         </div>
@@ -147,9 +149,9 @@
             <div id="2" class="item aire col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Climatización</h3>                            
+                        <h3>Mini Split</h3>                            
                     </div>
-                    <img alt="Climatización Cuartos frios"  src="img/proyecto2.jpg"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Climatización Cuartos frios"  src="img/aireacondiconado.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
@@ -158,73 +160,84 @@
             <div id="3" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
-                        <h3>Estructuras</h3>                            
+                        <h3>Acabados</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/remodelaciones.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
-            <div id="4" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+            <!--<div id="3" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
-                    <div class="titulo">
-                        <h3>proyecto</h3>                            
-                    </div>
-                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
-                    <div class="caption">
-                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="5" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
-               <div class="thumbnail">
-                    <div class="titulo">
-                        <h3>proyecto2</h3>                            
-                    </div>
-                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
-                    <div class="caption">
-                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="6" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
-                <div class="thumbnail">
                     <div class="titulo">
                         <h3>Acabados</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto3.jpg"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Estructuras"  src="img/remodelaciones2.png"  style="height: 200px; width: 242px; display: block;"> 
+                    <div class="caption">
+                        <a  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>-->
+            <div id="4" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
+                    <div class="titulo">
+                        <h3>Estructuras</h3>                            
+                    </div>
+                    <img alt="Estructuras"  src="img/estructuras.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
 
-            <div id="7" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+            <div id="5" class="item electricidad col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
-                        <h3>proyecto3</h3>                            
+                        <h3>Electricidad</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Electricidad"  src="img/electricidad1.png"  style="height: 200px; width: 242px; display: block;"> 
+                    <div class="caption">
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Electricidad</a>
+                    </div>
+                </div>
+            </div>
+            <!---faltan fotos
+            <div id="6" class="item inyeccion col-xs-12 col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <div class="titulo">
+                        <h3>Inyección</h3>                            
+                    </div>
+                    <img alt="Inyeccion"  src="img/"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
+
+            <div id="7" class="item extraccion col-xs-12 col-sm-4 col-md-3">
+               <div class="thumbnail">
+                    <div class="titulo">
+                        <h3>Extracción</h3>                            
+                    </div>
+                    <img alt="Estructuras"  src="img/"  style="height: 200px; width: 242px; display: block;"> 
+                    <div class="caption">
+                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>-->
             
-            <div id="8" class="item remodelaciones col-xs-12 col-sm-4 col-md-3">
+            <!--<div id="8" class="item extraccion col-xs-12 col-sm-4 col-md-3">
                <div class="thumbnail">
                     <div class="titulo">
                         <h3>proyecto4</h3>                            
                     </div>
-                    <img alt="Estructuras"  src="img/proyecto5.png"  style="height: 200px; width: 242px; display: block;"> 
+                    <img alt="Extraccion"  src="img/"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
                         <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
     <!-- section begin -->
@@ -646,7 +659,7 @@ $info = interface_contador();
     <script src="js/video.resize.js"></script>
     <script src="js/validation.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/designesia.js"></script>
+   
 </body>
 
 </html>

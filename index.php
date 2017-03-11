@@ -22,6 +22,8 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/isotope.css" rel="stylesheet">
+   <!-- <link href="css/slider_theme.css" rel="stylesheet">-->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,7 +37,7 @@
       <script src="js/designesia.js"></script> 
     <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
    <!-- Smartsupp Live Chat script -->
-<!--
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
     <script type="text/javascript">
     var _smartsupp = _smartsupp || {};
     _smartsupp.key = '4a7b1491316010f01b03c31764f4b25d3e71e77b';
@@ -46,7 +48,7 @@
         c.src='//www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
     })(document);
 </script>
--->
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -126,12 +128,7 @@
         </div>
         <br> </br>
         
-<!--------- cuadros modales -->
 
-        <div id="cargaexterna">
-            Aquí se cargará el HTML externo
-        </div>
-<!-- fin cuadros modales -->
        <div id="posts" class="row">
             <div id="1" class="item refrigeracion col-xs-12 col-sm-4 col-md-3 ">
                 <div class="item-wrap">
@@ -141,7 +138,7 @@
                         </div>
                         <img alt="Cuartos frios"  src="img/proyecto1.png"  style="height: 200px; width: 242px; display: block;"> 
                         <div class="caption">
-                            <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                            <a href= "slider.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +150,7 @@
                     </div>
                     <img alt="Climatización Cuartos frios"  src="img/aireacondiconado.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "slider2.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -164,7 +161,7 @@
                     </div>
                     <img alt="Estructuras"  src="img/remodelaciones.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "slider3.html"   id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +183,7 @@
                     </div>
                     <img alt="Estructuras"  src="img/estructuras.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "cuatro.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -198,7 +195,7 @@
                     </div>
                     <img alt="Electricidad"  src="img/electricidad1.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Electricidad</a>
+                        <a href= "uno.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Electricidad</a>
                     </div>
                 </div>
             </div>
@@ -294,7 +291,37 @@
 
                 </div>
             </section>
+    <!--------- cuadros modales -->
 
+        
+        <div id="elmodal">
+           
+            <div id="Modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+
+              <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+              <div class="modal-header">
+                <button id="cerrar" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                <div id="galeria" >
+                -contenido de galeria
+                </div>
+
+           
+              <div class="modal-footer">
+                <button id="cerrar" type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                
+              </div>
+            </div>
+              </div>
+            </div>
+        </div>
+
+
+
+<!-- fin cuadros modales -->
     <!-- ------------- cuadro modal de contacto por correo. -->
     <div class="modal fade" id="modal_correo" role="dialog">
         <div class="modal-dialog">
@@ -615,26 +642,28 @@ $info = interface_contador();
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-89942758-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <script type="text/javascript">
-        $(document).ready(function()
-    {
-    $("#boton").click(function(){
-            $.get("uno.html", function(htmlexterno){
-       $("#cargaexterna").html(htmlexterno);
+            $(document).ready(function(){
+               $("#posts a").each(function(){
+                  var href = $(this).attr("href");
+                  $(this).attr({ href: "#"});
+                  $(this).click(function(){
+                     $("#galeria").load(href);
+                     $('#Modal').modal('show');
+                  });
+               });
             });
-    });
-    });
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89942758-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    </script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEQ4KDq-iT2Q0E1UJpX7T1RM5nen0_940"></script>

@@ -20,31 +20,41 @@
                     <!-- Wrapper for slides -->
                     <div class='carousel-inner'>
                       <div class='item active'>
-                        <img src='img/galerias/".$_GET['galeria']."/1.jpg' alt='...'>
+                        <center>
+                          <img src='img/galerias/".$_GET['galeria']."/1.jpg' alt='...'>
+                        </center>
                         <div class='carousel-caption'>
                           
                         </div>
                       </div>
                       <div class='item'>
-                        <img src='img/galerias/".$_GET['galeria']."/2.jpg' alt='...'>
+                        <center>
+                          <img src='img/galerias/".$_GET['galeria']."/2.jpg' alt='...'>
+                        </center>
                         <div class='carousel-caption'>
                           
                         </div>
                       </div>
                       <div class='item'>
+                        <center>
                         <img src='img/galerias/".$_GET['galeria']."/3.jpg' alt='...'>
+                        </center>
                         <div class='carousel-caption'>
                           
                         </div>
                       </div>
                       <div class='item'>
-                        <img src='img/galerias/".$_GET['galeria']."/4.jpg' alt='...'>
+                        <center>
+                          <img src='img/galerias/".$_GET['galeria']."/4.jpg' alt='...'>
+                        </center>
                         <div class='carousel-caption'>
                           
                         </div>
                       </div>
                       <div class='item'>
-                        <img src='img/galerias/".$_GET['galeria']."/5.jpg' alt='...'>
+                        <center>
+                          <img src='img/galerias/".$_GET['galeria']."/5.jpg' alt='...'>
+                        </center>
                         <div class='carousel-caption'>
                           
                         </div>

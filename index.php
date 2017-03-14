@@ -138,7 +138,7 @@
                         </div>
                         <img alt="Cuartos frios"  src="img/proyecto1.png"  style="height: 200px; width: 242px; display: block;"> 
                         <div class="caption">
-                            <a href= "slider1.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                            <a href= "slider.php?galeria=1"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                     </div>
                     <img alt="Climatización Cuartos frios"  src="img/aireacondiconado.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href= "slider2.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "slider.php?galeria=2"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                     </div>
                     <img alt="Estructuras"  src="img/remodelaciones.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href= "slider3.html"   id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "slider.php?galeria=3"   id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     </div>
                     <img alt="Estructuras"  src="img/estructuras.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href= "slider4.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
+                        <a href= "slider.php?galeria=4"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyecto</a>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
                     </div>
                     <img alt="Electricidad"  src="img/electricidad1.png"  style="height: 200px; width: 242px; display: block;"> 
                     <div class="caption">
-                        <a href= "slider5.html"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Electricidad</a>
+                        <a href= "slider.php?galeria=5"  id = "boton"class="btn btn-block btn-xs btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Electricidad</a>
                     </div>
                 </div>
             </div>

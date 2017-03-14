@@ -30,14 +30,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+
      <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
-     <script src="vendor/jquery/jquery.js"></script>
-      <script src="js/designesia.js"></script> 
+   
+
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="js/designesia.js"></script> 
+
     <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <!--    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>-->
     <script type="text/javascript">
     var _smartsupp = _smartsupp || {};
     _smartsupp.key = '4a7b1491316010f01b03c31764f4b25d3e71e77b';
@@ -296,7 +300,9 @@
         
         <div id="elmodal">
            
-            <div id="Modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+           <!--  <div id="Modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"> -->
+           <div id="Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+           
 
               <div class="modal-dialog modal-lg" role="document">
                <div class="modal-content">
@@ -398,7 +404,18 @@
                 </div>
                 <div class="modal-body">
                     <h4>Misión</h4>
-                    <p>Somos una empresa en el rubro de aire acondicionado y ventilaciòn, nos encargamos de brindar mantenimiento, reparación, proyectos y brindar productos y servicios de calidad, generando confianza y seguridad, a un precio justo con entrega rápida, preocupándonos por el cliente y sus necesidades de modo proactivo e innovador, y teniendo siempre un personal altamente calificado.</p>   
+                    <p align="center">
+                        
+                            Ventas Instalaciones y Servicios. 
+                        
+                    </p>
+                    <p>
+                        <i class="fa fa-leaf" aria-hidden="true"> - </i></span>Aire acondicionado, Refrigeración industrial, Sistemas de inyección y extracción, Sistemas electricos y Remodelaciones<br>
+                    </p>
+                    <p align="justify">
+                        <i class="fa fa-leaf" aria-hidden="true"> - </i>Somos una empresa en el rubro de aire acondicionado y ventilaciòn, nos encargamos de brindar mantenimiento, reparación, proyectos y brindar productos y servicios de calidad, generando confianza y seguridad, a un precio justo con entrega rápida, preocupándonos por el cliente y sus necesidades de modo proactivo e innovador, y teniendo siempre un personal altamente calificado.
+                    </p>   
+                        
                 </div>
                 <div class="modal-footer">
                     <a data-dismiss="modal" class="btn">Cerrar</a>  
@@ -416,7 +433,7 @@
                 </div>
                 <div class="modal-body">
                     <h4>Visión</h4>
-                    <p>Ser reconocida como una empresa líder en el rubro de refrigeración y aire acondicionado, que satisfaga las necesidades de nuestros clientes entregándoles servicios y productos de calidad innovadores, desarrollando soluciones integrales para cada uno de ellos y manteniendo un respeto por la sociedad y naturaleza, a través de productos de la más avanzada tecnología y así generar calidad para el desarrollo del País.</p>   
+                    <p align="justify"><i class="fa fa-leaf" aria-hidden="true"> - </i>Ser reconocida como una empresa líder en el rubro de refrigeración y aire acondicionado, que satisfaga las necesidades de nuestros clientes entregándoles servicios y productos de calidad innovadores, desarrollando soluciones integrales para cada uno de ellos y manteniendo un respeto por la sociedad y naturaleza, a través de productos de la más avanzada tecnología y así generar calidad para el desarrollo del País.</p>   
                 </div>
                 <div class="modal-footer">
                     <a data-dismiss="modal" class="btn">Cerrar</a>  
@@ -436,12 +453,11 @@
                     <h4>Presentación</h4>
                     <p>Es una empresa establecida 1,999 con la visión de apoyar a la industria en  las áreas de aire acondicionado, cuartos fríos,  refrigeración, inyección, extracción, abarcando otras áreas que van de la mano en sus diversas aplicaciones motivada por la experiencia adquirida a nivel técnico de otras empresas del mismo ramo y complementándolo con capacitación y estudio constante en base a la investigación y desarrollo. </p>
     
-<p>Comprometiéndonos con nuestros clientes, cubriendo emergencias con rapidez, eficiencia, certeros en dar soluciones inmediatas con personal calificado.</p>
+                    <p>Comprometiéndonos con nuestros clientes, cubriendo emergencias con rapidez, eficiencia, certeros en dar soluciones inmediatas con personal calificado.</p>
 
-<p>Tomando en cuenta que contamos con los mejores precios del mercado enfocándonos en presupuestos justos y al alcance de nuestros clientes. </p>
+                    <p>Tomando en cuenta que contamos con los mejores precios del mercado enfocándonos en presupuestos justos y al alcance de nuestros clientes. </p>
 
-<p>Optimizamos la calidad total en los trabajos que realizamos, contando con  respaldo y garantía de nuestros proveedores en equipo, repuestos y materiales;  que nos permiten operativamente estar a la vanguardia.
-</p>   
+                    <p>Optimizamos la calidad total en los trabajos que realizamos, contando con  respaldo y garantía de nuestros proveedores en equipo, repuestos y materiales;  que nos permiten operativamente estar a la vanguardia.</p>   
                 </div>
                 <div class="modal-footer">
                     <a href="carta.pdf" class="btn btn-success" download="AirePro_presentacion.pdf">Descargar</a>
@@ -512,13 +528,7 @@
         </div>
     </section>
     <section >
-       
     </section>
-
-
-
-                
-
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
@@ -606,17 +616,14 @@ $info = interface_contador();
 
 
 ?>
-<div class="estadisticas" style="display:none;">
-    <?php
-    //muestro los datos del contador
-    echo "<span class='label label-primary'>este mes: ". $info[0] ."</span>";
-    echo "<span class='label label-success'>ultimo mes: " . $info[1] . "</span>";
-    echo "<span class='label label-info'>total: ". $info[2] . "</span>";
-    ?>
-</div>
-
-
-
+    <div class="estadisticas" style="display:none;">
+        <?php
+        //muestro los datos del contador
+        echo "<span class='label label-primary'>este mes: ". $info[0] ."</span>";
+        echo "<span class='label label-success'>ultimo mes: " . $info[1] . "</span>";
+        echo "<span class='label label-info'>total: ". $info[2] . "</span>";
+        ?>
+    </div>
     <!-- Map Section -->
     
 
@@ -633,13 +640,10 @@ $info = interface_contador();
             </a>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script>
@@ -656,7 +660,7 @@ $info = interface_contador();
             $(document).ready(function(){
                $("#posts a").each(function(){
                   var href = $(this).attr("href");
-                  $(this).attr({ href: "#"});
+                  $(this).attr({ href: "#proyectos"});
                   $(this).click(function(){
                      $("#galeria").load(href);
                      $('#Modal').modal('show');

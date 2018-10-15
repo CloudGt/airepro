@@ -19,6 +19,9 @@
                    
                     <!-- Wrapper for slides -->
                     <div class='carousel-inner'>
+                    ";
+                    if (file_exists("img/galerias/".$_GET['galeria']."/1.jpg")) {
+                    echo "
                       <div class='item active'>
                         <center>
                           <img src='img/galerias/".$_GET['galeria']."/1.jpg' alt='...'>
@@ -27,6 +30,10 @@
                           
                         </div>
                       </div>
+                      ";
+                    }
+                    if (file_exists("img/galerias/".$_GET['galeria']."/2.jpg")) {
+                    echo "
                       <div class='item'>
                         <center>
                           <img src='img/galerias/".$_GET['galeria']."/2.jpg' alt='...'>
@@ -35,6 +42,10 @@
                           
                         </div>
                       </div>
+                      ";
+                      }
+                    if (file_exists("img/galerias/".$_GET['galeria']."/3.jpg")) {
+                    echo "
                       <div class='item'>
                         <center>
                         <img src='img/galerias/".$_GET['galeria']."/3.jpg' alt='...'>
@@ -43,6 +54,10 @@
                           
                         </div>
                       </div>
+                      ";
+                      }
+                    if (file_exists("img/galerias/".$_GET['galeria']."/4.jpg")) {
+                    echo "
                       <div class='item'>
                         <center>
                           <img src='img/galerias/".$_GET['galeria']."/4.jpg' alt='...'>
@@ -51,6 +66,10 @@
                           
                         </div>
                       </div>
+                      ";
+                      }
+                    if (file_exists("img/galerias/".$_GET['galeria']."/5.jpg")) {
+                    echo "
                       <div class='item'>
                         <center>
                           <img src='img/galerias/".$_GET['galeria']."/5.jpg' alt='...'>
@@ -59,6 +78,9 @@
                           
                         </div>
                       </div>
+                      ";
+                        }
+                    echo "
                     </div>
                    
                     <!-- Controls -->

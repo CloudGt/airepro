@@ -215,6 +215,70 @@
                     </div>
                 </div>
             </div>
+            <div id="5" class="item cuartofrio col-xs-12 col-sm-6 col-md-6 ">
+                <div class="item-wrap">
+                    <div class="thumbnail">
+                        <div class="titulo">
+                            <h3>Cuartos Frios</h3>                            
+                        </div>
+                        <div class="contenidot">
+                            <div class="col-xs-12 col-sm-6 col-md-6"><img alt="Mini Split" src="img/CUARTOS FRIOS.png" style=" width: 90%;"></div>
+                            <div class="caption ">
+                            <br>
+                            <br>
+                                Fabricación de cuartos fríos en diferentes medidas y alturas, instalación de equipos de refrigeración de media y baja temperatura.
+                                <br><br>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="slider.php?galeria=5" id="boton" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="6" class="item motogeneracion col-xs-12 col-sm-6 col-md-6 ">
+                <div class="item-wrap">
+                    <div class="thumbnail">
+                        <div class="titulo">
+                            <h3>Motogeneración y electricidad</h3>                            
+                        </div>
+                        <div class="contenidot">
+                            <div class="col-xs-12 col-sm-6 col-md-6"><img alt="Mini Split" src="img/MOTOGENERACION Y ELECTRICIDAD INDUSTRIAL.png" style=" width: 90%;"></div>
+                            <div class="caption ">
+                            <br>
+                            <br>
+                                Fabricación de cuartos fríos en diferentes medidas y alturas, instalación de equipos de refrigeración de media y baja temperatura.
+                                <br><br>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="slider.php?galeria=6" id="boton" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="7" class="item inyeccion col-xs-12 col-sm-6 col-md-6 ">
+                <div class="item-wrap">
+                    <div class="thumbnail">
+                        <div class="titulo">
+                            <h3>Inyección y Extracción Industrial</h3>                            
+                        </div>
+                        <div class="contenidot">
+                            <div class="col-xs-12 col-sm-6 col-md-6"><img alt="Mini Split" src="img/inyeccion_extraccion.png" style=" width: 90%;"></div>
+                            <div class="caption ">
+                            <br><br>
+                                Fabricación de cuartos fríos en diferentes medidas y alturas, instalación de equipos de refrigeración de media y baja temperatura.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="slider.php?galeria=7" id="boton" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-plus-sign"></span> Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
     <!-- section begin -->
